@@ -40,7 +40,7 @@ var ms = 3 * resolutions.week;
 
 Return a string that represents the resolution of the millisecond gap you provide.
 
-### var ms = resolutions.week
+### var ms = resolutions.ms('week')
 
 Get how many milliseconds there are in a:
 
@@ -55,7 +55,7 @@ Get how many milliseconds there are in a:
 ```js
 var resolutions = require('time-resolutions');
 
-var ms_in_a_week = resolutions.week;
+var ms_in_a_week = resolutions.ms('week');
 ```
 
 ## license
