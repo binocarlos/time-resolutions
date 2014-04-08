@@ -18,6 +18,16 @@ describe('time-resolutions', function(){
 
   })
 
+  it('give the milliseconds for a day', function() {
+
+  	
+  	var ms = resolutions.ms('day');
+
+  	ms.should.equal(1000*60*60*24);
+		
+
+  })
+
   describe('resolutions', function(){
 
 	  it('millisecond', function() {

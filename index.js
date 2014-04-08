@@ -37,6 +37,12 @@ arr.forEach(function(a){
 	resolutions[a.name] = a.gap;
 })
 
+resolutions.ms = function(resolution){
+	var res = resolutions[resolution];
+
+	return res;
+}
+
 resolutions.resolve = function(gap){
 	if(!gap || typeof(gap)!=='number'){
 		throw new Error('gap needed')
