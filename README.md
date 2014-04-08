@@ -1,6 +1,8 @@
 time-resolutions
 ================
 
+![Build status](https://api.travis-ci.org/binocarlos/timestamp-resolutions.png)
+
 A collection of time resolutions in milliseconds
 
 ## installation
@@ -38,7 +40,7 @@ var ms = 3 * resolutions.week;
 
 Return a string that represents the resolution of the millisecond gap you provide.
 
-### var ms = resolutions[res]
+### var ms = resolutions.week
 
 Get how many milliseconds there are in a:
 
