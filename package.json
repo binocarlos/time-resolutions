@@ -1,6 +1,6 @@
 {
   "name": "time-resolutions",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A collection of time resolutions in milliseconds",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,5 @@
     "mocha": "~1.12.0",
     "should": "~1.2.2"
   },
-  "dependencies": {
-    
-  }
+  "dependencies": {}
 }
