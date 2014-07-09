@@ -1,7 +1,7 @@
 time-resolutions
 ================
 
-![Build status](https://api.travis-ci.org/binocarlos/timestamp-resolutions.png)
+![Build status](https://api.travis-ci.org/binocarlos/time-resolutions.svg)
 
 A collection of time resolutions in milliseconds
 
